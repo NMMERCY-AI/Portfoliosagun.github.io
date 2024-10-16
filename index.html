@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #666;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #000;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            text-align: none;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        section h2 {
+            font-size: 2em;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+            color: #444;
+        }
+
+        .about {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .about img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        .about-text {
+            max-width: 600px;
+            font-size: 1.1em;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .project h3 {
+            font-size: 1.5em;
+            color: #555;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li {
+            display: inline-block;
+            background-color: #f0f0f0;
+            padding: 10px 20px;
+            margin: 10px 5px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #666;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SAGUN SINGH</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about">
+              
+                <div class="about-text">
+                    <p>Hello! I’m [SAGUN SINGH], a passionate web developer with a focus on creating clean and functional websites. I enjoy building projects that combine creativity with modern web technologies. Let's connect and create something amazing together!</p>
+                </div>
+            </div>
+        </section>
+
+       <!-- Projects Section -->
+<section id="projects">
+    <h2>Projects</h2>
+    <p>I'm currently working on enhancing my web development skills by building small practice projects and experimenting with different technologies. Here are a few examples of what I’ve been learning:</p>
+    <div class="projects">
+        <div class="project">
+            <h3>Responsive Web Design Practice</h3>
+            <p>I’m working on creating responsive layouts using HTML and CSS. This project helped me understand the importance of media queries and flexbox in building flexible designs that work on all devices.</p>
+        </div>
+        <div class="project">
+            <h3>JavaScript To-Do List App</h3>
+            <p>This simple to-do list app allowed me to dive into JavaScript and understand DOM manipulation. It includes features like adding, deleting, and marking tasks as complete.</p>
+        </div>
+        <div class="project">
+            <h3>Portfolio Website (In Progress)</h3>
+            <p>I am currently building my own portfolio website to showcase my learning journey and projects. This site will evolve as I continue to learn and create more advanced projects.</p>
+        </div>
+    </div>
+</section>
+
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me at <a href="mailto:nmmercy15@gmail.com">nmmercy15@gmail.com</a> or connect with me 
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SAGUN SINGH. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
